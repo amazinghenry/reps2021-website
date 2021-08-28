@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+  }
+body {
+    background-color: rgb(230, 230, 230);
+}
+/* contact us */
+.bg-darken {
+    background-color: #333333;
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:;
+    color: #fff;
+    font-size: 13px;
+}
+
+.contactus p {
+    padding: 20px 10px;
+    margin: 0px;
+}
+
+
+/* jumbotron-area */
+.background {
+    background: url("../images/background-image.jpg");
+    background-color:#9e0b0f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.jumbotron-text > *{
+text-align: center;
+color: #fff;
+}
+
+.jumbotron-text {
+    padding:30px 0px;
+}
+/* about-rep */
+.about-rep {
+    max-width: 731px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+/* section-2 */
+.sec2 {
+    background-color: #9e0b0f;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec2text {
+    color:#fff;
+    margin:0;
+}
+/* about the market place alliance */
+.about-ma{
+    background-color:#9e0b0f;
+}
+
+.about-ma-text {
+    color: #fff;
+    text-align: center;
+    max-width: 731px;
+    padding:70px 0;
+    
+}
+
+.padding-0{
+    padding-left:0;
+    padding-right:0;
+}
+
+/* past speaker */
+
+.speaker {
+    max-width:1280px;
+    margin:0 auto;
+}
+
+/* about thinkmint */
+.about-tm {
+    background-color:#ffb128;
+    margin: 60px 0;
+}
+
+.about-tm-text {
+    text-align: center;
+    max-width: 731px;
+    padding:70px 0;
+}
+/* panel session */
+
+.panelsession{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 731px;
+    padding: 60px;
+}
+
+.maroon {
+    background-color: #9e0b0f;
+    color: #fff;
+}
+/* programme */
+
+.programme {
+    margin: 100px 0 50px 0;
+}
+
+tbody > th {
+    background-color: #ffb128;
+}
+
+/* form-area */
+
+.formsection{
+    margin: 100px 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=tel]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.why-bg {
+    background-color: #1a1a1a;
+}
+
+form {
+    color:#fff;
+}
+/* base */
+.base {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* thankyou page */
+
+.thankyou{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    background-color: #ffb128;;
+    max-width: 600px;
+    padding: 50px;
+}
